@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(194, 66, 162);
+    background-blend-mode: darken;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Main Container */
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* Text container */
+.wel-text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.wel-text h1{
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 3px 2px rgb(11, 81, 161);
+    padding-bottom: 4px;
+}
+
+.wel-text p{
+    color: white;
+    font-size: 26px;
+    padding-bottom: 2rem;
+}
+
+.period{
+    color: rgb(11, 81, 161);
+    font-size: 2rem;
+    font-weight:  bold;
+}
+/* Icon */
+.icon-div .icon{
+ color: rgb(11, 81, 161);
+ font-size: 4rem;
+}
+/* form container */
+.main-input{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(209, 205, 205);
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(11, 81, 161);
+    
+}
+/* Label input */
+.lab{
+    color: rgb(11, 81, 161);
+    font-weight: bold;
+    font-style: italic;
+}
+/* Form input */
+.box{
+    padding: 15px;
+    width: 100%;
+    border-radius: 15px;
+    color: white;
+    margin-top: 1rem;
+    background-color: rgb(24, 23, 23);
+}
+.box:focus{
+    color: white;
+    border: 2px solid rgb(11, 81, 161);
+}
+
+.placeholder{
+    color:  rgb(11, 81, 161);
+}
+/* Button container */
+#btn-con{
+    text-align: center;
+}
+/* Button */
+#btn{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    /* font-weight: bold; */
+    padding: 5px 20px;
+    margin-top: 1rem;
+    border: 1px solid rgb(11, 81, 161);
+    border-radius: 10px;
+    background-color: rgb(11, 81, 161);
+    transition: 0.2s;
+}
+
+#btn:hover{
+    color: white;
+    background-color: rgb(43, 125, 219);
+    border: 1px solid rgb(11, 81, 161);
+    border-radius: 10px;
+}
+
+.false{
+    border: 2px solid red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: none;
+    background-color: rgba(241, 105, 105, 0.767);
+}
+
+.true{
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: none;
+    background-color: rgba(10, 144, 197, 0.644); 
+}
+
+.remind{
+    border: 2px solid red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: none;
+    background-color: rgba(241, 105, 105, 0.767);
+}
+
+@media (max-width: 900px){
+    .container {
+        width: 100%;
+    }
+    
+    .wel-text {
+        width: 100%;
+        padding-bottom: 2rem;
+
+    }
+
+    .main-input {
+        width: 90%;
+    }
+}
+/*Made by Ehidiamen Genesis */
